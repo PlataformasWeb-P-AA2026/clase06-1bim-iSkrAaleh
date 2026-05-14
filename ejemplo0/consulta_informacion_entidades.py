@@ -45,6 +45,10 @@ cursor.execute(cadena_consulta_sql)
 # la información resultante se la obtiene del método fetchall de cursor.
 informacion = cursor.fetchall()
 
+print(informacion)
+
+#crear algo que me permita leer el csv y guardarlo en la base de datos
+
 # se realiza un ciclo repetitivo para recorrer la secuencia de información
 # resultante
 for d in informacion:
